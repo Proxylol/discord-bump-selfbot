@@ -12,6 +12,8 @@
 ```
 python -m pip install --user --upgrade git+https://github.com/Merubokkusu/Discord-S.C.U.M.git#egg=discum
 ```
+- Make sure to DM the Disboard bot at least once. (On the self-bot account)
+
 <h3>How it works</h3>
 
 It's simple! Every 5-6 minutes (or whatever you set it to), the bot will send the bump command. Disboard only allows you to bump every 2 hours, so this is a way to continuously keep checking without being rate-limited by discord and disboard. Please note that you can edit the time frame.

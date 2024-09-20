@@ -21,7 +21,7 @@ def send_bump_command(): # This just makes sure the bot does the command as soon
         print(f"Error occurred sending initial bump: {e}")
     
     while True:
-        random_sleep_time = random.uniform(300, 400) # Does the command every 5-6 minutes, you can edit it. (300 seconds = 5mins)
+        random_sleep_time = random.uniform(300, 400) # Does the command every 5-6 minutes, EDIT IF YOU WANT. (300 seconds = 5mins)
         print(f"Waiting {random_sleep_time:.2f} seconds.")
         time.sleep(random_sleep_time)
         
